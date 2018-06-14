@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDate_componente"
+        android:layout_width="79dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtName_componente"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1.00"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/btnEdit_componente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/btnRemove_componente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+</LinearLayout>

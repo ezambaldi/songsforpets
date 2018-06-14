@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/btnPlay_componente3"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/btnRemove_componente3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.04"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/txtName_componente3"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.00"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+</LinearLayout>

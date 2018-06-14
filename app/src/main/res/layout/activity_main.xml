@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context="br.com.zambaldi.songsforpets.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAudioList"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1.00"
+            android:text="Audio List"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnAudioGroup"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Audio Groups"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.00"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="0.02"
+            android:background="@android:color/background_light"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnStartStop"
+            android:layout_width="139dp"
+            android:layout_height="138dp"
+            android:background="@drawable/play"
+            android:contentDescription="START"
+            android:textColor="@android:color/background_light" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_weight="0.29"
+            app:srcCompat="@drawable/pets" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:drawableBottom="@android:drawable/ic_lock_power_off" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
